@@ -1,0 +1,378 @@
+:root {
+    --color-fondo: #f8f9fa;
+    --color-superficie: #ffffff;
+    --color-borde: #dcdcdc;
+    --color-principal: #1a1a1a;
+    --color-secundario: #54595d;
+    --color-link: #3366cc;
+
+    --fuente-titulos: "Libre Baskerville", serif;
+    --fuente-texto: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    position: relative;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 14px 28px;
+
+    background-color: var(--color-superficie);
+
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+}
+
+.hamburguesa {
+    position: relative;
+
+    display: inline-block;
+}
+
+.menu-icono {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+
+}
+
+.hamburguesa:hover .menu-icono {
+    color: var(--color-link);
+
+    background-color: #eaecf0;
+
+    transform: scale(1.1);
+}
+
+.submenu {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 180px;
+
+    list-style: none;
+
+    background-color: var(--color-superficie);
+
+    border: 1px solid var(--color-borde);
+    border-radius: 5px;
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-8px);
+
+    pointer-events: none;
+
+    z-index: 1000;
+}
+
+.hamburguesa:hover .submenu {
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: translateY(0);
+
+    pointer-events: auto;
+}
+
+.submenu li {
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    display: block;
+
+    padding: 12px 18px;
+
+    color: var(--color-principal);
+
+    text-decoration: none;
+
+    font-family: var(--fuente-texto);
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        padding-left 0.2s ease;
+}
+
+.submenu a:hover {
+    background-color: #f2f2f2;
+
+    color: var(--color-link);
+
+    padding-left: 23px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.logo-icono {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    background-color: #202122;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 26px;
+    font-weight: bold;
+
+    font-family: var(--fuente-titulos);
+}
+
+.titulo-logo h1 {
+    font-family: var(--fuente-titulos);
+
+    font-size: 2rem;
+
+    color: var(--color-principal);
+}
+
+.titulo-logo p {
+    color: var(--color-secundario);
+
+    font-family: var(--fuente-texto);
+
+    font-size: 0.9rem;
+}
+
+.acciones {
+    display: flex;
+
+    gap: 22px;
+}
+
+.acciones a {
+    color: var(--color-link);
+
+    font-family: var(--fuente-texto);
+
+    text-decoration: none;
+
+    transition: 0.25s;
+}
+
+.acciones a:hover {
+    text-decoration: underline;
+}
+
+.navegacion {
+    position: relative;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 35px;
+
+    padding: 12px;
+
+    background-color: var(--color-superficie);
+
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.navegacion a {
+    color: var(--color-principal);
+
+    font-family: var(--fuente-texto);
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: color 0.25s ease;
+}
+
+.navegacion a:hover {
+    color: var(--color-link);
+}
+
+.bienvenida {
+    padding: 30px;
+    background-color: var(--color-superficie);
+    border: 1px solid var(--color-borde);
+}
+
+.bienvenida h2{
+    margin-bottom: 12px;
+    font-family: var(--fuente-titulos);
+    font-size: 2rem;
+}
+
+.bienvenida h2 span{
+    color:var(--color-link);
+}
+
+.bienvenida > p{
+    margin-bottom: 20px;
+    color: var(--color-secundario);
+    line-height: 1.6;
+}
+
+
+
+.articulo{
+    margin-top: 25px;
+    padding: 30px;
+    background-color: var(--color-superficie);
+    border: 1px solid var(--color-borde);
+}
+
+.subtitulo{
+    margin-bottom: 8px;
+    color: var(--color-secundario);
+    font-size: .85rem;
+    text-transform: uppercase;
+}
+
+.articulo h2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-borde);
+    font-family: var(--fuente-titulos);
+}
+
+.contenido{
+    display: flex;
+    gap: 30px;
+}
+
+.texto-articulo {
+    flex: 1;
+}
+
+.texto-articulo p{
+    margin-bottom: 18px;
+    line-height: 1.7;
+
+}
+.texto-articulo p:first-child::first-letter {
+    color: var(--color-link);
+    font-family: var(--fuente-titulos);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ficha-personal {
+    width: 240px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid var(--color-borde);
+    text-align: center;
+}
+
+.ficha-personal img {
+    width: 100%;
+    display: block;
+}
+.ficha-personal p{
+    margin-top: 8px;
+    color: var(--color-secundario);
+    font-size: .85rem;
+}
+
+#intereses{
+    margin-top: 25px;
+    padding: 30px;
+    background-color: var(--color-superficie);
+    border: 1px solid var(--color-borde);
+}
+
+#intereses h2{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-borde);
+    font-family: var(--fuente-titulos);
+}
+
+#intereses p{
+    color: var(--color-secundario);
+    line-height: 1.6;
+}
+
+#metas{
+    margin-top: 25px;
+    padding: 30px;
+    background-color: var(--color-superficie);
+    border: 1px solid var(--fuente-titulos);
+}
+
+#metas h2{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-borde);
+    font-family: var(--fuente-titulos);
+}
+
+#metas p{
+    color: var(--color-secundario);
+    line-height: 1.6;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #202122;
+    color: white;
+    text-align: center;
+}
+
+
+#contacto {
+    margin-top: 20px;
+    text-align: center;
+    list-style: none;
+    border-top: 1px solid white;
+    padding-top: 20px;
+
+}
+
+a[href^="mailto:"] {
+    color: var(--color-link);
+}

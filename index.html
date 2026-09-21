@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía 2 - Desarrollo Web I | Diego González</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        .header-info h1 {
+            margin: 0 0 10px 0;
+        }
+
+        .header-info p {
+            margin: 0;
+        }
+
+        #MiFoto {
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+
+        .card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+        }
+
+        a {
+            color: #F37021;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #D9591A;
+        }
+
+        ul.enlaces {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul.enlaces li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #ecf0f1;
+            border-radius: 5px;
+            border-left: 4px solid #F37021;
+        }
+
+        .reto-card {
+            border-top: 5px solid #ed2023;
+        }
+
+        .reto-card ul.enlaces li {
+            border-left-color: #ed2023;
+        }
+
+        .reto-card a {
+            color: #d91d20;
+        }
+
+        .reto-card a:hover {
+            color: #a91518;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 9px;
+            margin: 3px 4px 3px 0;
+            background: #ecf0f1;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .nota {
+            background: #fff7ed;
+            border-left: 4px solid #F37021;
+            padding: 12px 15px;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            color: #666;
+            padding: 10px 0 25px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 650px) {
+            .header-container {
+                align-items: flex-start;
+            }
+
+            #MiFoto {
+                width: 80px;
+                height: 80px;
+            }
+
+            body {
+                padding: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="header-info">
+            <h1>Guía de Laboratorio Nº 2</h1>
+            <p><strong>Estudiante:</strong> Diego González | Ingeniería de Software y Negocios Digitales</p>
+            <p><strong>Materia:</strong> Desarrollo Web I</p>
+        </div>
+        <img src="img/foto-biografia.jpg" alt="Fotografía de Diego González" width="100" height="100" id="MiFoto">
+    </header>
+
+    <div class="card">
+        <h2>1. Procedimiento (30%)</h2>
+        <p>Ejercicios de selectores CSS avanzados, pseudo-clases, pseudo-elementos y modelo de caja.</p>
+        <ul class="enlaces">
+            <li><a href="pelicula.html">Ejercicio 1: Altamar — Selectores CSS avanzados</a></li>
+            <li><a href="tablero.html">Ejercicio 2: Tablero de damas — :nth-child()</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>2. Ejercicio Complementario (35%)</h2>
+        <p>Página biográfica personal desarrollada con HTML semántico, hoja de estilos externa, Google Fonts, imágenes, vínculos y selectores CSS avanzados.</p>
+
+        <div>
+            <span class="tag">HTML semántico</span>
+            <span class="tag">CSS externo</span>
+            <span class="tag">Google Fonts</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Pseudo-clases</span>
+            <span class="tag">Pseudo-elementos</span>
+        </div>
+
+        <ul class="enlaces">
+            <li><a href="biografia.html">Ejercicio Complementario: MyWiki — Biografía de Diego González</a></li>
+        </ul>
+    </div>
+
+    <div class="card reto-card">
+        <h2>3. Reto IA (35%) — Pollo Campero El Salvador</h2>
+        <p>
+            Rediseño y ampliación del sitio de Pollo Campero trabajado en la Guía 1. El reto utiliza un sistema visual inspirado en
+            <strong>Roberta's Pizza — Refero Style Reference</strong> y mantiene una identidad consistente en tres páginas.
+        </p>
+
+        <h3>Páginas del sitio</h3>
+        <ul class="enlaces">
+            <li><a href="Guia2_Reto_IA_Campero/index.html">Inicio — Pollo Campero El Salvador</a></li>
+            <li><a href="Guia2_Reto_IA_Campero/menu.html">Menú — Productos y selección Campero</a></li>
+            <li><a href="Guia2_Reto_IA_Campero/contacto.html">Contacto y locales</a></li>
+        </ul>
+
+        <h3>Evidencias del proceso</h3>
+        <ul class="enlaces">
+            <li><a href="Guia2_Reto_IA_Campero/prompt_reto_ia.txt">Prompt elaborado utilizado para Astra</a></li>
+        </ul>
+
+        <p><strong>Herramienta de IA:</strong> Astra</p>
+        <p><strong>Sistema de diseño:</strong> Roberta's Pizza — Refero</p>
+        <p><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript Vanilla y Google Fonts.</p>
+
+        <h3>Video Explicativo</h3>
+        <ul class="enlaces">
+            <li><a href="https://youtu.be/PPvkpONeqiI" target="_blank">Ver video explicativo de la Guía 2 en YouTube</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        Guía 2 — Desarrollo Web I — ESEN — 2026
+    </footer>
+
+</body>
+</html>

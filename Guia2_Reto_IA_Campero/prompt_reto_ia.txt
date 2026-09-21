@@ -1,0 +1,1086 @@
+# RETO IA GUÍA 2 — POLLO CAMPERO EL SALVADOR
+# DESARROLLO WEB I — ESEN
+# INSTRUCCIÓN MAESTRA PARA ASTRA
+
+Actúa como Senior Frontend Developer, UI/UX Designer y especialista en desarrollo web con HTML5, CSS3 y JavaScript Vanilla.
+
+Estás trabajando en un proyecto académico de Desarrollo Web I. Tu objetivo NO es crear un sitio arbitrario desde cero, sino ampliar y rediseñar correctamente un proyecto existente de Pollo Campero El Salvador realizado en la Guía 1.
+
+Lee TODA esta instrucción antes de modificar cualquier archivo.
+
+==================================================
+1. REPOSITORIO Y CONTEXTO EXISTENTE
+==================================================
+
+Repositorio:
+
+https://github.com/Diegogonz05/Desarrollo-Web.git
+
+ANTES DE ESCRIBIR CÓDIGO:
+
+1. Analiza la estructura completa del repositorio.
+2. Localiza el proyecto final de Pollo Campero realizado en la Guía 1.
+3. La versión final de la Guía 1 se encuentra principalmente en:
+
+Sitio_Web_IA/
+
+y su entrada principal es:
+
+Sitio_Web_IA/index.html
+
+4. Revisa su:
+- HTML
+- CSS
+- JavaScript
+- imágenes
+- contenido
+- navegación
+- funcionalidades existentes
+- estructura visual
+- componentes reutilizables.
+
+La nueva página de inicio de Guía 2 debe ser una REELABORACIÓN del resultado de Guía 1.
+
+NO debes crear un proyecto desconectado del trabajo anterior.
+
+IMPORTANTE:
+
+NO modifiques, reemplaces ni elimines los archivos originales correspondientes a la Guía 1.
+
+Especialmente conserva intactos:
+
+Sitio_Web_IA/
+Sitio_IA_Generico/
+Sitio_Web_Personal/
+index.html actual del repositorio
+captura-campero.jpg
+y cualquier evidencia de Guía 1.
+
+El objetivo es preservar completamente la evidencia de la Guía 1.
+
+==================================================
+2. NUEVA CARPETA DEL RETO
+==================================================
+
+Crea una carpeta nueva llamada:
+
+Guia2_Reto_IA_Campero/
+
+Trabaja el nuevo sitio únicamente dentro de esta carpeta.
+
+La estructura debe mantenerse sencilla y apropiada para una materia introductoria/intermedia de Desarrollo Web.
+
+Utiliza aproximadamente:
+
+Guia2_Reto_IA_Campero/
+│
+├── index.html
+├── menu.html
+├── contacto.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+├── img/
+│   └── [solo imágenes realmente necesarias]
+│
+└── README_RETO_IA.md
+
+No generes decenas de archivos innecesarios.
+
+==================================================
+3. TECNOLOGÍAS PERMITIDAS
+==================================================
+
+Utiliza:
+
+- HTML5
+- CSS3
+- JavaScript Vanilla únicamente cuando aporte funcionalidad real
+- Google Fonts
+- imágenes/assets existentes del proyecto cuando sean reutilizables
+
+NO utilizar:
+
+- React
+- Vue
+- Angular
+- Tailwind
+- Bootstrap
+- Next.js
+- Vite
+- Node como requisito de ejecución
+- frameworks CSS
+- librerías gigantes
+- dependencias que requieran npm
+- código excesivamente complejo
+
+El sitio debe poder abrirse directamente en el navegador y funcionar correctamente mediante GitHub Pages.
+
+Quiero código comprensible para un estudiante de Desarrollo Web I.
+
+==================================================
+4. OBJETIVO ACADÉMICO DEL RETO
+==================================================
+
+Este proyecto debe cumplir TODOS estos puntos:
+
+1. Partir del sitio salvadoreño de Pollo Campero trabajado en Guía 1.
+2. Aplicar un sistema de diseño obtenido de Refero.
+3. Construir TRES páginas.
+4. Mantener el mismo sistema visual en las tres páginas.
+5. Mantener navegación completamente funcional entre las tres.
+6. Incorporar animaciones o transiciones CSS.
+7. Dejar una animación o transición MUY FÁCIL de modificar durante una demostración en vivo.
+8. Quedar preparado para publicarse mediante GitHub Pages.
+9. Conservar la instrucción utilizada y documentar el resultado.
+10. Mantener el sitio responsive.
+
+==================================================
+5. LAS TRES PÁGINAS
+==================================================
+
+Construye exactamente estas tres páginas principales:
+
+1. index.html
+   Página de Inicio.
+
+   Debe ser una reelaboración del proyecto de Pollo Campero de la Guía 1.
+
+2. menu.html
+   Página de Menú / Productos.
+
+3. contacto.html
+   Página de Contacto / Locales.
+
+Las tres páginas deben tener una navegación consistente:
+
+Inicio
+Menú
+Contacto
+
+Desde cualquiera de las tres páginas debo poder acceder a las otras dos.
+
+No uses enlaces falsos "#" para la navegación principal.
+
+Ejemplo:
+
+index.html
+menu.html
+contacto.html
+
+==================================================
+6. IDENTIDAD DE POLLO CAMPERO
+==================================================
+
+Aunque el sistema visual provenga de Refero, el contenido sigue siendo POLLO CAMPERO EL SALVADOR.
+
+Conserva:
+
+- nombre Pollo Campero
+- identidad de restaurante
+- concepto de pollo frito
+- productos
+- promociones
+- cultura de restaurante salvadoreño/centroamericano
+- llamadas a la acción para ordenar
+- contenido útil del proyecto de Guía 1
+- imágenes existentes apropiadas
+- logo existente si está disponible en los assets del proyecto
+
+NO conviertas el sitio en una pizzería.
+
+Roberta's Pizza es únicamente la REFERENCIA DEL SISTEMA VISUAL.
+
+No copies:
+- nombre Roberta's
+- pizza como producto
+- textos de Roberta's
+- skulls si no tienen sentido con Pollo Campero
+- identidad comercial de Roberta's
+
+Adapta el lenguaje visual al contenido de Pollo Campero.
+
+==================================================
+7. DESIGN SYSTEM OBLIGATORIO
+==================================================
+
+El estilo Refero seleccionado es:
+
+ROBERTA'S PIZZA — STYLE REFERENCE
+
+Debes utilizar este sistema como referencia visual consistente en las tres páginas.
+
+PRINCIPIOS GENERALES:
+
+Theme:
+Light.
+
+Sistema visual:
+- canvas principalmente blanco
+- texto charcoal
+- rojo vivo como único gran color de acción
+- estética gráfica estilo póster/restaurante
+- composición espaciosa
+- secciones de ancho completo
+- títulos grandes
+- bordes gráficos
+- botones planos
+- sombras retro duras únicamente en estados interactivos
+- evitar estética genérica de tarjetas modernas con sombras suaves
+
+==================================================
+8. COLORES DEL DESIGN SYSTEM
+==================================================
+
+Define variables CSS en :root.
+
+Utiliza principalmente:
+
+--color-primary: #ed2023;
+--color-charcoal: #2b2f36;
+--color-white: #ffffff;
+--color-black: #000000;
+--color-muted: #bfbfbf;
+
+Roles:
+
+#ed2023:
+- CTA principal
+- momentos visuales fuertes
+- divisores/accent
+- promociones principales
+
+#2b2f36:
+- texto principal
+- botones secundarios
+- bordes
+- navegación
+
+#ffffff:
+- fondo principal
+- superficies
+- texto sobre fondos oscuros o rojos
+
+#000000:
+- contraste máximo
+- inputs/bordes muy específicos
+
+No introduzcas una gran cantidad de colores adicionales.
+
+El logo y fotografías originales de Pollo Campero pueden conservar naturalmente sus colores propios.
+
+==================================================
+9. TIPOGRAFÍA
+==================================================
+
+Las fuentes originales de Refero son propietarias.
+
+Usa sustitutos gratuitos indicados por el propio sistema.
+
+Carga desde Google Fonts:
+
+Space Grotesk
+
+y
+
+Bebas Neue
+
+Usa aproximadamente:
+
+Space Grotesk:
+- body
+- navegación
+- botones
+- labels
+- textos
+
+Bebas Neue:
+- títulos grandes
+- promociones
+- encabezados tipo poster
+
+No uses Bebas Neue para párrafos largos.
+
+Mantén títulos display contundentes y cuerpo altamente legible.
+
+==================================================
+10. ESCALA Y ESPACIADO
+==================================================
+
+Utiliza una escala consistente.
+
+Referencia:
+
+12px
+16px
+20px
+24px
+28px
+32px
+40px
+48px
+64px
+96px
+
+Ancho máximo aproximado del contenido:
+
+1200px
+
+Separación típica entre secciones:
+
+64px a 80px
+
+Padding de componentes:
+
+20px a 30px
+
+Espacios entre elementos:
+
+20px a 30px
+
+Evita llenar excesivamente la pantalla.
+
+==================================================
+11. BOTONES
+==================================================
+
+CTA primario:
+
+background: #ed2023;
+color: #ffffff;
+border-radius aproximado: 7px;
+texto uppercase;
+sin sombra en estado normal.
+
+CTA secundario:
+
+background: #2b2f36;
+color: #ffffff;
+border-radius aproximado: 7px.
+
+CTA outlined:
+
+background: transparent;
+border: 1px solid #2b2f36;
+color: #2b2f36.
+
+NO uses botones extremadamente redondeados salvo pequeños tags.
+
+==================================================
+12. EFECTOS RETRO
+==================================================
+
+Una característica importante del estilo es la sombra dura retro:
+
+box-shadow:
+0 4px 4px rgba(0, 0, 0, 0.25);
+
+Debe utilizarse principalmente en HOVER o ACTIVE.
+
+NO uses grandes sombras difuminadas.
+
+NO uses:
+- glassmorphism
+- blur decorativo
+- gradientes innecesarios
+- glow
+- neumorphism
+
+El resultado debe sentirse plano, gráfico y tipo póster.
+
+==================================================
+13. ELEMENTOS DECORATIVOS
+==================================================
+
+Incorpora de manera controlada algunos elementos inspirados en el design system:
+
+A. Checkered ribbon
+
+Una banda horizontal con cuadrados alternados charcoal/blanco.
+
+Puede construirse únicamente con CSS.
+
+Úsala como separador visual.
+
+B. Star band
+
+Una franja roja con estrellas blancas repetidas o elementos gráficos equivalentes.
+
+Puede utilizar CSS y caracteres/SVG simples.
+
+Debe utilizarse como separador entre algunas secciones.
+
+C. Fotografías tipo polaroid
+
+En alguna sección de fotografías puedes utilizar:
+
+- borde blanco
+- pequeña rotación
+- sombra dura 4px
+
+No abuses del efecto.
+
+Debe seguir sintiéndose como Pollo Campero, no como una copia literal de Roberta's.
+
+==================================================
+14. PÁGINA 1 — INDEX.HTML
+==================================================
+
+Reelabora el inicio de Pollo Campero de Guía 1.
+
+Debe incluir:
+
+HEADER / NAV
+
+- logo Pollo Campero
+- Inicio
+- Menú
+- Contacto
+- botón destacado "ORDENAR"
+
+En desktop:
+navegación completa.
+
+En móvil:
+puedes utilizar menú hamburguesa funcional con JavaScript Vanilla.
+
+HERO
+
+Crea una sección hero visualmente fuerte utilizando una imagen existente apropiada del proyecto.
+
+No es obligatorio utilizar video.
+
+Debe contener:
+
+- gran headline
+- breve texto
+- CTA "ORDENAR AHORA"
+- CTA secundario "VER MENÚ"
+
+Ejemplo conceptual:
+
+"EL SABOR QUE NOS UNE"
+
+No copies exactamente ese texto si ya existe uno mejor en el proyecto original.
+
+PROMOCIONES
+
+Incluye una sección visualmente atractiva de promociones/productos destacados basada en el contenido que ya exista en Guía 1.
+
+No inventes precios si no existen en el material original.
+
+Si necesitas mostrar productos sin precios confirmados, utiliza nombres y descripciones sin inventar valores.
+
+SECCIÓN DE HISTORIA / MARCA
+
+Breve contenido que comunique la tradición y experiencia Campero.
+
+SEPARADORES VISUALES
+
+Utiliza al menos un:
+- checkered ribbon
+o
+- star band
+
+CTA FINAL
+
+Invita a visitar el menú o realizar un pedido.
+
+FOOTER
+
+Incluye:
+- Pollo Campero El Salvador
+- navegación
+- enlaces útiles
+- aviso de proyecto académico si corresponde
+
+==================================================
+15. PÁGINA 2 — MENU.HTML
+==================================================
+
+Construye una página visual de productos.
+
+Debe sentirse parte EXACTAMENTE del mismo sitio.
+
+Incluir:
+
+- mismo header
+- navegación
+- mismo footer
+- mismo sistema tipográfico
+- mismos colores
+- mismos botones
+
+Crear categorías visuales apropiadas, por ejemplo:
+
+- Combos
+- Pollo
+- Acompañamientos
+- Bebidas
+- Promociones
+
+Prioriza datos/productos que ya existan en el proyecto Guía 1.
+
+No inventes afirmaciones comerciales, promociones vigentes ni precios actuales sin una fuente dentro del proyecto.
+
+Cada producto puede utilizar una tarjeta gráfica sencilla con:
+
+- imagen
+- nombre
+- breve descripción
+- botón de acción representativo
+
+Los botones no necesitan realizar compras reales.
+
+Si existe carrito funcional en Guía 1 y puede reutilizarse limpiamente sin complicar el proyecto, consérvalo o adáptalo.
+
+Si no, NO construyas un sistema ecommerce gigantesco.
+
+==================================================
+16. PÁGINA 3 — CONTACTO.HTML
+==================================================
+
+Construye una página Contacto / Locales.
+
+Debe incluir:
+
+- mismo header/nav/footer
+- headline visual
+- una sección de información de contacto
+- una sección de locales o información general si esa información existe en el proyecto
+- un formulario visual
+
+Formulario:
+
+Nombre
+Correo
+Mensaje
+Botón ENVIAR
+
+No necesita enviar datos a un servidor.
+
+Pero debe:
+
+- usar labels correctamente
+- tener required donde corresponda
+- ser accesible
+- tener focus styles visibles
+
+Puede incluir un mensaje visual con JS Vanilla al enviarlo:
+
+"Gracias. Tu mensaje ha sido registrado como demostración."
+
+Debe quedar explícitamente como una simulación del proyecto académico.
+
+==================================================
+17. HTML SEMÁNTICO
+==================================================
+
+Usa correctamente:
+
+<header>
+<nav>
+<main>
+<section>
+<article> cuando tenga sentido
+<footer>
+<form>
+<label>
+button
+etc.
+
+Cada página debe tener:
+
+<!DOCTYPE html>
+<html lang="es">
+<meta charset>
+viewport
+title diferente y descriptivo
+
+Utiliza alt en todas las imágenes importantes.
+
+==================================================
+18. CSS
+==================================================
+
+Utiliza una única hoja:
+
+css/style.css
+
+para las tres páginas siempre que sea posible.
+
+Usa:
+
+:root
+variables CSS
+Flexbox
+Grid cuando tenga sentido
+media queries
+hover
+focus
+active
+transiciones CSS
+selectores variados
+
+Mantén el CSS ordenado y legible.
+
+No escribas estilos inline salvo que exista una razón excepcional.
+
+==================================================
+19. RESPONSIVE DESIGN
+==================================================
+
+El sitio debe funcionar correctamente aproximadamente en:
+
+1440px
+1024px
+768px
+390px
+
+Evita:
+
+- scroll horizontal
+- textos gigantes cortados
+- elementos superpuestos
+- botones fuera de pantalla
+- navegación rota
+- imágenes deformadas
+
+Utiliza:
+
+max-width
+clamp()
+grid
+flex-wrap
+media queries
+
+cuando corresponda.
+
+==================================================
+20. ANIMACIONES Y TRANSICIONES — REQUISITO CRÍTICO
+==================================================
+
+Debes incluir al menos una transición o animación claramente visible.
+
+Pero existe un requisito académico adicional:
+
+Durante mi video debo MODIFICAR EN VIVO un parámetro de dicha transición y explicar el cambio.
+
+Por ello, implementa obligatoriamente esta variable en :root:
+
+--demo-transition-duration: 0.35s;
+
+Utilízala en un componente MUY VISIBLE, preferiblemente las tarjetas del menú o los botones.
+
+Ejemplo conceptual:
+
+.menu-card {
+    transition:
+        transform var(--demo-transition-duration) ease,
+        box-shadow var(--demo-transition-duration) ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+}
+
+IMPORTANTE:
+
+Esta transición debe funcionar realmente.
+
+Añade en style.css un comentario claramente identificable:
+
+/* DEMOSTRACIÓN VIDEO:
+   Cambiar --demo-transition-duration de 0.35s a 1.5s
+   para mostrar cómo cambia la velocidad de la transición.
+*/
+
+Así podré mostrar durante la grabación:
+
+ANTES:
+--demo-transition-duration: 0.35s;
+
+DESPUÉS:
+--demo-transition-duration: 1.5s;
+
+El efecto debe volverse claramente más lento.
+
+NO bases el requisito únicamente en una animación automática difícil de demostrar.
+
+==================================================
+21. INTERACCIONES
+==================================================
+
+Implementa interacciones sencillas y justificadas:
+
+- hover de botones
+- hover de cards
+- menú hamburguesa responsive
+- formulario de demostración
+- navegación
+- posiblemente carrito si se reutiliza fácilmente de Guía 1
+
+No agregues JavaScript solo para presumir complejidad.
+
+==================================================
+22. NO INVENTAR CONTENIDO CRÍTICO
+==================================================
+
+No inventes:
+
+- precios actuales
+- horarios actuales
+- promociones vigentes
+- direcciones no verificadas
+- números de teléfono no presentes en el proyecto
+- términos legales
+- estadísticas
+
+Cuando falte información:
+
+- reutiliza la existente en Guía 1
+o
+- utiliza copy genérico que no haga afirmaciones verificables.
+
+==================================================
+23. CONSISTENCIA VISUAL
+==================================================
+
+Las tres páginas deben parecer claramente parte del mismo sitio.
+
+Mismos:
+
+- header
+- footer
+- tipografías
+- colores
+- botones
+- espaciados
+- componentes
+- decoración
+- interacción
+
+No quiero tres diseños diferentes.
+
+==================================================
+24. EVITAR APARIENCIA DE "IA GENÉRICA"
+==================================================
+
+Evita:
+
+- cientos de cards idénticas
+- degradados azul/morado
+- glassmorphism
+- sombras suaves enormes
+- border-radius de 30px en todo
+- blobs
+- exceso de iconos
+- textos genéricos de startup
+- estadísticas inventadas
+- "innovación que transforma..."
+- layouts de dashboard
+
+Debe sentirse como un restaurante real con una identidad gráfica fuerte.
+
+==================================================
+25. README_RETO_IA.MD
+==================================================
+
+Crea:
+
+Guia2_Reto_IA_Campero/README_RETO_IA.md
+
+Debe documentar:
+
+# Reto IA — Guía 2
+
+## Proyecto
+Pollo Campero El Salvador
+
+## Herramienta utilizada
+Astra
+
+## Proyecto base
+Guía 1 — Sitio_Web_IA
+
+## Sistema de diseño Refero
+Roberta's Pizza Style Reference
+
+## Páginas creadas
+- index.html
+- menu.html
+- contacto.html
+
+## Tecnologías
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- Google Fonts
+
+## Design system
+Explicar brevemente:
+- rojo #ed2023
+- charcoal #2b2f36
+- blanco
+- Space Grotesk
+- Bebas Neue
+- estética poster/retro
+- checkered ribbon
+- hard shadow
+
+## Animación utilizada
+Explicar exactamente qué elemento usa:
+
+--demo-transition-duration: 0.35s;
+
+## Demostración para el video
+Indicar:
+
+1. Abrir css/style.css.
+2. Buscar --demo-transition-duration.
+3. Cambiar 0.35s a 1.5s.
+4. Guardar.
+5. Hacer hover sobre el elemento.
+6. Mostrar cómo la transición ahora ocurre de manera más lenta.
+
+## Publicación
+Explicar cómo publicar esta carpeta mediante GitHub Pages.
+
+==================================================
+26. INSTRUCCIÓN UTILIZADA
+==================================================
+
+La Guía 2 exige conservar la instrucción utilizada.
+
+Dentro de README_RETO_IA.md agrega una sección:
+
+## Instrucción utilizada
+
+Indica que el desarrollo se realizó mediante una instrucción elaborada para Astra basada en:
+
+- análisis de Guía 1
+- sistema Roberta's Pizza de Refero
+- construcción de tres páginas
+- navegación
+- responsive design
+- transición demostrable
+- preparación para GitHub Pages
+
+NO borres ni escondas la evidencia del proceso.
+
+Si es posible conservar el texto completo de esta instrucción sin crear un archivo absurdo o romper el proyecto, crea además:
+
+prompt_reto_ia.txt
+
+y guarda esta instrucción completa.
+
+==================================================
+27. GITHUB PAGES
+==================================================
+
+El resultado debe utilizar rutas RELATIVAS compatibles con GitHub Pages.
+
+Ejemplos correctos:
+
+href="menu.html"
+href="css/style.css"
+src="js/main.js"
+src="img/archivo.jpg"
+
+Evita rutas locales como:
+
+C:\Users\...
+/Users/...
+localhost...
+
+Comprueba que todas las imágenes y enlaces funcionen mediante rutas relativas.
+
+NO afirmes que el proyecto está publicado si no has ejecutado realmente el deployment.
+
+Si tienes acceso autorizado al repositorio y capacidad de commit/push:
+
+1. verifica los cambios,
+2. no sobrescribas Guía 1,
+3. realiza el commit correspondiente únicamente cuando sea seguro.
+
+Si NO tienes permiso para hacer push:
+
+NO inventes que fue publicado.
+
+En su lugar, al final dame exactamente:
+- archivos que debo agregar
+- git add
+- git commit
+- git push
+- configuración necesaria para GitHub Pages
+
+==================================================
+28. INDEX PRINCIPAL DEL REPOSITORIO
+==================================================
+
+NO destruyas ni rediseñes completamente el index.html principal del repositorio.
+
+Al finalizar, indícame qué pequeño bloque debo agregar al index general de mis guías para enlazar el Reto IA de Guía 2.
+
+El enlace principal deberá apuntar a:
+
+Guia2_Reto_IA_Campero/index.html
+
+Si tienes autorización y contexto suficiente para modificar el index general sin eliminar contenido existente, puedes agregar solamente ese enlace de forma mínima.
+
+==================================================
+29. VIDEO DE ENTREGA
+==================================================
+
+El proyecto debe quedar preparado para que yo pueda realizar un video de máximo 10 minutos.
+
+El video deberá poder mostrar fácilmente:
+
+1. El proyecto original de Pollo Campero de Guía 1.
+2. El estilo Roberta's Pizza seleccionado en Refero.
+3. Cómo se usó su design.md.
+4. La instrucción elaborada entregada a Astra.
+5. index.html.
+6. menu.html.
+7. contacto.html.
+8. navegación entre las tres páginas.
+9. responsive design.
+10. animaciones/transiciones.
+11. modificación en vivo:
+
+--demo-transition-duration: 0.35s;
+
+a:
+
+--demo-transition-duration: 1.5s;
+
+12. explicar que al aumentar la duración la transición ocurre más lentamente.
+
+Asegúrate de que ese cambio sea visible y fácil de demostrar.
+
+==================================================
+30. PROCESO DE TRABAJO OBLIGATORIO
+==================================================
+
+NO comiences modificando archivos inmediatamente.
+
+FASE 1 — ANALIZAR
+
+Primero analiza:
+
+- repo
+- Sitio_Web_IA/
+- assets disponibles
+- HTML existente
+- CSS existente
+- JS existente
+- qué contenido puede reutilizarse
+- qué funcionalidades se pueden conservar
+
+Después dime:
+
+A. Qué encontraste.
+B. Qué conservarás.
+C. Qué reutilizarás.
+D. Qué crearás.
+E. Qué NO modificarás.
+
+FASE 2 — PLANIFICAR
+
+Antes de crear archivos, presenta:
+
+1. estructura final de archivos;
+2. estructura de cada página;
+3. componentes compartidos;
+4. estrategia responsive;
+5. cómo aplicarás el design system;
+6. transición que servirá para la demostración del video.
+
+FASE 3 — IMPLEMENTAR
+
+Una vez realizado el análisis y el plan:
+
+Crea el proyecto.
+
+No te detengas a pedirme confirmación para cada archivo si no existe una ambigüedad crítica.
+
+FASE 4 — VERIFICAR
+
+Después de implementar:
+
+revisa:
+
+- links
+- rutas
+- imágenes
+- navegación
+- hover
+- animación
+- formulario
+- responsive
+- consola del navegador
+- HTML semántico
+- accesibilidad básica
+
+Corrige los errores que encuentres.
+
+FASE 5 — INFORME FINAL
+
+Al terminar entrega un resumen que incluya:
+
+ARCHIVOS CREADOS
+ARCHIVOS MODIFICADOS
+ARCHIVOS NO TOCADOS
+
+REQUISITOS CUMPLIDOS
+- 3 páginas
+- mismo design system
+- navegación funcional
+- animación/transición
+- responsive
+- Refero
+- documentación
+- GitHub Pages ready
+
+ANIMACIÓN PARA VIDEO
+Indícame exactamente:
+archivo:
+línea o selector:
+valor inicial:
+valor que debo cambiar:
+qué efecto observaré:
+
+PUBLICACIÓN
+Indícame los pasos restantes para GitHub Pages si no pudiste publicarlo directamente.
+
+==================================================
+31. CRITERIO DE FINALIZACIÓN
+==================================================
+
+No consideres la tarea terminada hasta que:
+
+[ ] exista index.html
+[ ] exista menu.html
+[ ] exista contacto.html
+[ ] las tres páginas naveguen correctamente entre sí
+[ ] compartan style.css
+[ ] sean responsive
+[ ] usen Space Grotesk y Bebas Neue
+[ ] el sistema visual esté inspirado consistentemente en Roberta's Pizza Refero
+[ ] siga siendo claramente Pollo Campero El Salvador
+[ ] exista al menos una animación/transición
+[ ] --demo-transition-duration funcione realmente
+[ ] el formulario sea funcional como demostración
+[ ] las rutas sean aptas para GitHub Pages
+[ ] Guía 1 permanezca intacta
+[ ] exista README_RETO_IA.md
+[ ] pueda explicarse el proyecto en un video de menos de 10 minutos
+
+Empieza AHORA por la FASE 1: ANALIZAR EL REPOSITORIO.
+
+No generes código todavía hasta haber mostrado primero tu análisis y tu plan.
